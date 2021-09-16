@@ -11,5 +11,3 @@ words = set(words)
 output = [_ for _ in words]
 output.sort()
 print(output)
-
-# Ok

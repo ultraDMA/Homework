@@ -6,5 +6,3 @@ count = 0
 for _ in string:
     count += 1
 print(f' The lenght of your string is: {count} symbol(s)')
-
-#Ok

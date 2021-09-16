@@ -11,5 +11,3 @@ output = {}
 for character in set(string):
     output.update({character: string.count(character)})
 print(output)
-
-# Ok
