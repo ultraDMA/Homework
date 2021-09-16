@@ -25,5 +25,9 @@ def pretty_print(a, b, c, d):
 
 a, b = int(input('a = ')), int(input('b = '))
 c, d = int(input('c = ')), int(input('d = '))
-print('\nOutput:')
-pretty_print(a, b, c, d)
+
+if a > b or c > d:
+    print('I can\'t operate with this! Check your input: (a < b, c < d)')
+else:
+    print('\nOutput:')
+    pretty_print(a, b, c, d)
