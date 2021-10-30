@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+        'argparse',
+        'requests',
+        'bs4',
+        'dateparser',
+        'datetime',
+        'lxml',
+        'xhtml2pdf'
+
+]
+build-backend = "setuptools.build_meta"
